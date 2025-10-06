@@ -1,0 +1,88 @@
+================================================================================
+ANÁLISE DE DUPLICATAS - ARQUIVO SCOPUS
+================================================================================
+
+📄 Lendo arquivo: export_8f77fb33-532c-470c-9e41-4482d02a30ec_2025-10-05T231503.385218.csv
+✅ Arquivo carregado com sucesso!
+   Total de registros: 238
+   Colunas encontradas: ['Authors', 'Author full names', 'Author(s) ID', 'Title', 'Year', 'Source title', 'DOI', 'Link', 'Abstract', 'Author Keywords', 'Index Keywords']
+
+================================================================================
+ANÁLISE 1: DUPLICATAS POR DOI
+================================================================================
+
+📊 Registros com DOI válido: 218
+📊 Registros sem DOI: 20
+
+⚠️  DUPLICATAS ENCONTRADAS: 2 registros duplicados
+   Número de DOIs únicos duplicados: 1
+
+📋 Tabela de Duplicatas por DOI:
+--------------------------------------------------------------------------------
+                             DOI                                                                               Title  Authors  Year
+10.1109/ICORR58425.2023.10304712 Does the Level of Focus in Serious Games in Immersive VR Correlate with the Qual...      NaN  2023
+10.1109/ICORR58425.2023.10304712 Does the Level of Focus in Serious Games in Immersive VR Correlate with the Qual...      NaN  2023
+
+📊 Detalhamento dos DOIs duplicados:
+--------------------------------------------------------------------------------
+   DOI: 10.1109/ICORR58425.2023.10304712
+   Aparece 2 vezes
+
+================================================================================
+ANÁLISE 2: DUPLICATAS POR TÍTULO
+================================================================================
+
+📊 Registros com Título válido: 238
+📊 Registros sem Título: 0
+
+⚠️  DUPLICATAS ENCONTRADAS: 6 registros duplicados
+   Número de Títulos únicos duplicados: 3
+
+📋 Tabela de Duplicatas por Título:
+--------------------------------------------------------------------------------
+                             DOI                                                                               Title                                               Authors  Year
+ 10.4018/978-1-4666-4422-9.ch038      An overview on the use of serious games in physical therapy and rehabilitation T.F.M.C., Martins, Tiago F.M.C.; V.H.C., Carvalho,...  2013
+ 10.4018/978-1-4666-0149-9.ch061      An Overview on the Use of Serious Games in Physical Therapy and Rehabilitation T.F.M.C., Martins, Tiago F.M.C.; V.H.C., Carvalho,...  2012
+10.1109/ICORR58425.2023.10304712 Does the Level of Focus in Serious Games in Immersive VR Correlate with the Qual...                                                   NaN  2023
+10.1109/ICORR58425.2023.10304712 Does the Level of Focus in Serious Games in Immersive VR Correlate with the Qual...                                                   NaN  2023
+                             NaN Using instructional games: A teaching strategy for increasing student participat...                               K.E., Gifford, Kathy E.  2012
+           10.1300/J003v15n01_03 Using instructional games: A teaching strategy for increasing student participat...                               K.E., Gifford, Kathy E.  2001
+
+📊 Detalhamento dos Títulos duplicados:
+--------------------------------------------------------------------------------
+   Título: An overview on the use of serious games in physical therapy and rehabilitation
+   Aparece 2 vezes
+
+   Título: Does the Level of Focus in Serious Games in Immersive VR Correlate with the Quality of Movement? Pre...
+   Aparece 2 vezes
+
+   Título: Using instructional games: A teaching strategy for increasing student participation and retention
+   Aparece 2 vezes
+
+================================================================================
+RESUMO FINAL DA ANÁLISE
+================================================================================
+
+📊 ESTATÍSTICAS GERAIS:
+   Total de registros no arquivo: 238
+   Registros com DOI válido: 218
+   Registros com Título válido: 238
+
+🔍 DUPLICATAS POR DOI:
+   ⚠️  2 registros duplicados encontrados
+   ⚠️  1 DOIs únicos com duplicatas
+   📈 Taxa de duplicação: 0.92%
+
+🔍 DUPLICATAS POR TÍTULO:
+   ⚠️  6 registros duplicados encontrados
+   ⚠️  3 Títulos únicos com duplicatas
+   📈 Taxa de duplicação: 2.52%
+
+🔗 DUPLICATAS COMUNS (DOI E TÍTULO):
+   2 registros são duplicados tanto por DOI quanto por Título
+
+================================================================================
+FIM DA ANÁLISE
+================================================================================
+
+💾 Resultado salvo em: analise_duplicatas_resultado_20251005_233345.txt

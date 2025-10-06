@@ -1,0 +1,102 @@
+# Python
+# ======
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Bytecode compilado
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuição / Empacotamento
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Logs e bancos de dados
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+# ====
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Sistema Operacional
+# ===================
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Arquivos temporários
+# ====================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Arquivos grandes de dados
+# ==========================
+# Descomente a linha abaixo se o CSV for muito grande (>100MB)
+# *.csv
+
+# Arquivos de ambiente
+# =====================
+.env
+.env.local
+.env.*.local
+
+# Backups
+# =======
+*.bak
+*.backup
+
